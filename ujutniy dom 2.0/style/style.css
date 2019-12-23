@@ -1,0 +1,271 @@
+body{
+    background-color: #fff;
+    color: #000;
+    font-size: 21px;
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav */
+
+header .nav-item a{
+    color: #fff;
+    font-size: 21px;
+    margin:0 25px;
+    font-weight: 400;    
+}
+
+@media screen and (max-width: 500px) {
+    header .nav-item a{
+        font-size: 15px; 
+        margin: 0;
+        padding: 0; 
+    }
+    header .logo{
+        font-size: 23px;
+    }
+  }
+
+header .nav-item a:hover{
+    text-decoration: underline;
+    transition: .2s;   
+}
+.logo{
+    color: #fff;
+    font-size: 33px;
+}
+
+.slider{
+    margin-top: 10px;
+}
+
+/* catalog */
+.catalog{
+    height: auto;
+}
+.catalog__title{
+    font-size: 34px;
+    font-weight: bold;
+}
+.catalog__inner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.catalog__item{
+    width: 33.33333%;
+    height: 155px;
+    
+    border-radius: 8%;
+}
+
+@media screen and (max-width: 550px) {
+    .catalog__item{
+        align-items: center;
+        width: 100%;
+        height: 185px;
+        margin-bottom: 5px;
+        
+    }
+  }
+@media screen and (max-width: 500px) {
+    .catalog__item{
+        align-items: center;
+        width: 100%;
+        height: 165px;
+        margin-bottom: 5px;
+        
+    }
+  }
+  @media screen and (max-width: 390px) {
+    .catalog__item{
+        
+        width: 100%;
+        height: 145px;
+        
+    }
+  }
+  @media screen and (max-width: 365px) {
+    .catalog__item{
+        align-items: center;
+        width: 100%;
+        
+        
+    }
+  }
+  
+  
+  
+.catalog__text {
+    padding-top: 5%;
+    padding-left: 7%;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+/* images for catalog */
+.catalog-1{
+    background: url(../img/catalog/bortiki.png) center;
+    background-size: cover;
+}
+.catalog-2{
+    background: url(../img/catalog/naborydlyakolyasok.png) center;
+    background-size: cover;
+}
+.catalog-3{
+    background: url(../img/catalog/detskijmir.png) center;
+    background-size: cover;
+}
+.catalog-4{
+    background: url(../img/catalog/textile.png) center;
+    background-size: cover;
+}
+.catalog-5{
+    background: url(../img/catalog/kublo.png) center;
+    background-size: cover;
+}
+.catalog-6{
+    background: url(../img/catalog/handmade.png) center;
+    background-size: cover;
+}
+.catalog-7{
+    background: url(../img/catalog/gnizdechko.png) center;
+    background-size: cover;
+}
+.catalog-8{
+    background: url(../img/catalog/summer.png) center;
+    background-size: cover;
+}
+.catalog-9{
+    background: url(../img/catalog/konvert.png) center;
+    background-size: cover;
+}
+.catalog-10{
+    background: url(../img/catalog/pillows.png) center;
+    background-size: cover;
+}
+.catalog-11{
+    background: url(../img/catalog/belje.png) center;
+    background-size: cover;
+}
+.catalog-12{
+    background: url(../img/catalog/podushki.png)center;
+    background-size: cover;
+}
+
+/* social */
+.social{
+    
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.social__inner{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.social__item{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    width: 33.3333%;
+    height: 70px;
+    margin: 0 1%;
+    color: #fff;
+    font-size: 34px;
+    font-weight: 400;
+    
+}
+.content{
+    align-items: center;
+    display: flex;
+    margin:auto;
+}
+.social__icon{
+    margin: 0 17px;
+    width: 45px;
+    height: 45px;
+    
+}
+.facebook{
+
+    background: #1774EB 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+.instagram{
+    background: transparent linear-gradient(78deg, #FEC966 0%, #D82F7C 34%, #8F39C2 69%, #4B62D4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+.viber{
+    background: #7757E0 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+}
+
+/* footer */
+footer{
+    width:100%;
+    background-color:#00A3FF;
+    color: #fff;
+    height: 240px;
+    padding: 10px 0;
+    font-size: 26px;
+    
+    
+}
+
+.footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__item{
+    width: 33.33333%;
+    max-width: 240px;
+    text-align: center;  
+}
+.footer__text{
+    padding-top: 30px;
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+
+footer .social__icon{
+    width: 40px;
+    height: 40px;
+    margin:0 15px;
+}
+
+footer a:hover{
+    text-decoration: none;
+}
+
+.bank__icon{
+   width: 40px;
+   height: 40px;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 16px;
+    font-weight: 400;
+}
