@@ -77,7 +77,13 @@ header .nav-item a:hover{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+.catalog__item:hover{
+    
+    transition: .2s;
+    -webkit-filter: brightness(110%); 
+}
 .catalog__item{
+    
     width: 33.33333%;
     height: 155px;
     
@@ -208,6 +214,39 @@ header .nav-item a:hover{
     display: flex;
     margin:auto;
 }
+@media screen and (max-width: 800px) {
+    .social__text{
+        display: none;
+    }
+}
+@media screen and (max-width: 770px) {
+    footer img.social__icon{
+        width: 30px;
+        height: 30px;
+        margin:0 5px;
+    }
+    footer .phone__number{
+        font-weight: 700;
+        font-size: 16px;
+        padding-top: 5%;
+    }
+}
+.phone__number{
+    font-weight: 700;
+    font-size: 21px;
+}
+@media screen and (max-width: 500px) {
+    footer img.social__icon{
+        width: 20px;
+        height: 20px;
+        margin:0 3px;
+    }
+    img.bank__icon{
+        width: 30px;
+        height: 30px;
+     }
+}
+
 .social__icon{
     margin: 0 17px;
     width: 45px;
@@ -222,6 +261,10 @@ header .nav-item a:hover{
 .instagram{
     background: transparent linear-gradient(78deg, #FEC966 0%, #D82F7C 34%, #8F39C2 69%, #4B62D4 100%) 0% 0% no-repeat padding-box;
     border-radius: 8px;
+}
+.social__item:hover{
+    transition: .23s;
+    border: 3px solid #fff;
 }
 .viber{
     background: #7757E0 0% 0% no-repeat padding-box;
@@ -274,7 +317,7 @@ footer a:hover{
 
 .copyright{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 5%;
     font-size: 16px;
     font-weight: 400;
 }
