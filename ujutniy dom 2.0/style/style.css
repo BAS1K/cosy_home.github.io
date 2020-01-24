@@ -602,4 +602,7 @@ a.list__link:hover{
     .label__button{
         font-size: 10px;
     }
+    .label__part{
+        font-size: 8px;
+    }
 }
