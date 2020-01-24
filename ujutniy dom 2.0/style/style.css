@@ -177,7 +177,7 @@ a{
     background-size: cover;
 }
 .catalog-9{
-    background: url(../img/catalog/konvert.png) center;
+    background: url(../img/catalog/podushki.png) center;
     background-size: cover;
 }
 .catalog-10{
@@ -189,7 +189,7 @@ a{
     background-size: cover;
 }
 .catalog-12{
-    background: url(../img/catalog/podushki.png)center;
+    background: url(../img/catalog/towels-2.png)center;
     background-size: cover;
 }
 
@@ -527,4 +527,79 @@ a.main:hover{
     text-decoration: none;
     color: #000;
     font-weight: 700;
+}
+
+
+.catalog__list{
+    font-size: 13px;
+    opacity: 0;
+}
+
+.towels:hover .catalog__list{
+    transition: .2s;
+    opacity: 1;
+}
+a.list__link:hover{
+    text-decoration: underline;
+    transition: .2s;
+}
+
+
+/* mobile optimization */
+@media screen and (max-width: 400px) {
+    footer .phone__number{
+        font-size: 13px;
+        
+    }
+    .catalog__title{
+        font-size: 26px;
+    }
+    .benefits{
+        margin: 0;
+        padding:0;
+    }
+    .benefits__inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .benefits__item{
+        width: 23%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .benefits__text{
+        display: none;
+    }
+    .benefits__img{
+        width: 40px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .work{
+        margin: 0;
+        padding:0;
+    }
+    .work__inner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .work__item{
+        width: 48%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .work__text{
+        font-size: 10px;
+    }
+    /* catalog */
+    .store__item{
+        width: 45%;
+    }
+    .price{
+        
+        font-size: 12px;
+    }
+    .label__button{
+        font-size: 10px;
+    }
 }
