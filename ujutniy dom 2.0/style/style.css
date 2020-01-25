@@ -420,7 +420,7 @@ a.history__link{
 }
 .store__item:hover .store__label{
     transition: .2s;
-    opacity: .9;
+    opacity: .5;
     margin:0 2%;
 }
 
@@ -475,6 +475,12 @@ a.history__link{
 }
 .item-10{
     background:url(../img/store/127375897.png) center;
+    background-size: cover;
+}
+
+
+.item-void{
+    background:url(../img/full_catalog/void.jpg) center;
     background-size: cover;
 }
 /*  */
@@ -605,4 +611,46 @@ a.list__link:hover{
     .label__part{
         font-size: 8px;
     }
+
+    div.description{
+        font-size: 14px;
+        width: 50%;
+
+    }
+    div.description__text{
+        font-size: 12px;
+    }
 }
+
+.description{
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top:3px;
+    color: #fff;
+    background-color:#00A3FF;
+    border-radius: 8px;
+    text-align: center;
+    
+    width: 20%;
+    margin-bottom: 15px;
+}
+.description__text{
+    text-align: center;
+    font-size: 16px;
+    
+    display: none;
+}
+.description:hover .description__text{
+    display: block;
+    height: auto;
+    font-weight: 400;
+}
+
+ .description:hover{
+    font-weight: 700;
+    color: #00A3FF;
+    background-color: #fff;
+    border: #00A3FF 1px solid;
+    text-decoration: none; 
+    width: 100%;
+} 
